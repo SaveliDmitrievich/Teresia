@@ -18,5 +18,7 @@ Teresia — Веб-сайт цветочного магазина
 Технологии
 
 Backend: PHP, MySQL (через phpMyAdmin)
+
 Frontend: HTML, CSS, JavaScript
+
 Tools: VS Code, Git, локальный сервер AMPPS
