@@ -1,0 +1,152 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article,
+aside, canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+:focus {
+    outline: 0;
+}
+
+hr{
+    margin: 0;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+input[type='search'] {
+    appearance: textfield;
+    box-sizing: content-box;
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+
+button[disabled], input[disabled] {
+    cursor: default;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+}
+
+::selection {
+    background: #b3d4fc;
+}
+
+/* Cormorant Infant Light */
+@font-face {
+    font-family: 'Cormorant Infant';
+    src: url('../fonts/CormorantInfant-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Cormorant Infant Regular */
+@font-face {
+    font-display: swap;
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/CormorantInfant-Regular.woff2') format('woff2');
+}
+
+/* Cormorant Infant Medium */
+@font-face {
+    font-family: 'Cormorant Infant';
+    src: url('../fonts/CormorantInfant-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Cormorant Infant SemiBold */
+@font-face {
+    font-display: swap;
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/CormorantInfant-SemiBold.woff2') format('woff2');
+}
+
+/* Cormorant Infant Bold */
+@font-face {
+    font-display: swap;
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/CormorantInfant-Bold.woff2') format('woff2');
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Cormorant Infant', serif;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #3C3C3C;
+}
+
+body::-webkit-scrollbar {
+    display: none; 
+}
